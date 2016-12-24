@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TRAINING COUNTER</string>
+    <string name="start">Start</string>
+    <string name="push">Push-up workout</string>
+    <string name="abs">ABS workout</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="touchpush">Touch</string>
+    <string name="resetreset">RESET</string>
+</resources>
