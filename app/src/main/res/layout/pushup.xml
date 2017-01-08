@@ -11,7 +11,7 @@
         android:layout_height="90dp"
         android:id="@+id/buttonTouch"
         android:layout_weight="0.88"
-        android:background="@android:color/holo_blue_dark" />
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable" />
 
     <Button
         android:text="@string/resetreset"

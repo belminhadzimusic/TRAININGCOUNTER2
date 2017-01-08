@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+
+    <Button
+        android:text="ALTERNATE HAMMER CURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alternatehammercurl"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+
+    <Button
+        android:text="ALTERNATE INCLINE DUMBBELL CURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alternateinclinedumbbellcurl"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+
+    <Button
+        android:text="BARBELL CURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barblecurl"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+
+    <Button
+        android:text="BARBELL CURLS LYING AGAINST AN INCLINE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barblecurlslyingagainstanincline"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+
+    <Button
+        android:text="BICEPS CURL TO SHOULDER PRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bicepscurltoshoulderpress"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+</LinearLayout>

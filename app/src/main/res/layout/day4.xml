@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet">
+    <TextView
+        android:text="@string/day4"
+        android:textSize="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewflf" />
+    <TextView
+        android:text="Breakfast (267 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1info" />
+    <TextView
+        android:text="• 1/4 cup Maple-Nut Granola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewn" />
+    <TextView
+        android:text="• 3/4 cup plain non-fat Greek yogurt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVfiewn" />
+    <TextView
+        android:text="• 1/2 cup blueberries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVgiewn" />
+    <TextView
+        android:text="Morning Snack (83 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1inlfo" />
+    <TextView
+        android:text="• 1 hard boiled egg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVgilewn" />
+    <TextView
+        android:text="• 1 tsp. hot sauce, if desired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVgieawn" />
+    <TextView
+        android:text="Lunch (336 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1llinlfo" />
+    <TextView
+        android:text="• 2 cups mixed greens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tebbxtVgilewn" />
+    <TextView
+        android:text="• 3 oz. cooked chicken breast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tesbbxtVgilewn" />
+    <TextView
+        android:text="• 1/2 medium red bell pepper, sliced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbbxtVgilewn" />
+    <TextView
+        android:text="• 1/4 cup grated carrots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbbxtlVgilewn" />
+    <TextView
+        android:text="• 1 clementine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtlVgilewn" />
+    <TextView
+        android:text="• 2 Tbsp. Carrot-Ginger Vinaigrette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtllVgilewn" />
+    <TextView
+        android:text="Combine ingredients and top salad with vinaigrette."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtlVgpilewn" />
+    <TextView
+        android:text="Afternoon Snack (86 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1hhinlfo" />
+    <TextView
+        android:text="• 4 dried apricots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtllVgildsfewn" />
+    <TextView
+        android:text="• 4 walnut halves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtllVgdfgilewn" />
+    <TextView
+        android:text="Dinner (444 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1inttlfo" />
+    <TextView
+        android:text="• 2 1/4 cup Warm Lentil Salad with Sausage and Apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtlltgrtVgilewn" />
+    <TextView
+        android:text="• 1/2 cup Quick Pickled Beets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/tecbgbxtllVfsdgilewn" />
+
+</LinearLayout>

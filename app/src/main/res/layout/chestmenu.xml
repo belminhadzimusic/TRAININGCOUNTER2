@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+
+    <Button
+        android:text="ALTERNATING FLOOR PRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/alternatingfloorpress" />
+
+    <Button
+        android:text="AROUND THE WORLDS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/aroundtheworlds" />
+
+    <Button
+        android:text="BAR PUSH-UP SMITH MACHINE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/barpushupsmithmachine" />
+
+    <Button
+        android:text="BAR THROW AND PRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/barthrowandpress" />
+
+    <Button
+        android:text="BARBELL BENCH PRESS - MEDIUM GRIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/barbellbenchpressmediumgrip" />
+</LinearLayout>

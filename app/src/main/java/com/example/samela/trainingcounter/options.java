@@ -21,25 +21,61 @@ public class options extends Activity {
 
             public void onClick(View v) {
                 Intent intent = new Intent(options.this, stopwatch.class);
-                startActivityForResult(intent, 0);
+                startActivityForResult(intent, 0);}});
 
 
-        Button pushup = (Button) findViewById(R.id.pushup);
-        pushup.setOnClickListener(new View.OnClickListener() {
+        Button photosworkout = (Button) findViewById(R.id.photosworkout);
+        photosworkout.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(options.this, pushup.class);
+                Intent intent = new Intent(options.this, photosworkout.class);
                 startActivityForResult(intent, 0);
+            }});
 
-
-        Button abs = (Button) findViewById(R.id.abs);
-        abs.setOnClickListener(new View.OnClickListener() {
+        Button tricepsmenu = (Button) findViewById(R.id.tricepsmenu);
+        tricepsmenu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(options.this, abs.class);
+                Intent intent = new Intent(options.this, tricepsmenu.class);
                 startActivityForResult(intent, 0);
+            }});
 
 
+        Button stepmenu = (Button) findViewById(R.id.stepmenu);
+        stepmenu.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(options.this, stepmenu.class);
+                startActivityForResult(intent, 0);
+            }});
+        Button bicepsmenu = (Button) findViewById(R.id.bicepsmenu);
+        bicepsmenu.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(options.this, bicepsmenu.class);
+                startActivityForResult(intent, 0);
+            }});
+        Button chestmenu = (Button) findViewById(R.id.chestmenu);
+        chestmenu.setOnClickListener(new View.OnClickListener() {
 
+            public void onClick(View v) {
+                Intent intent = new Intent(options.this, chestmenu.class);
+                startActivityForResult(intent, 0);}});
+
+         Button absmenu = (Button) findViewById(R.id.absmenu);
+         absmenu.setOnClickListener(new View.OnClickListener() {
+             public void onClick(View v) {
+                 Intent intent = new Intent(options.this, absmenu.class);
+                 startActivityForResult(intent,0);
+             }
+         });
+
+        Button diet = (Button) findViewById(R.id.diet);
+        diet.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(options.this, diet.class);
+                startActivityForResult(intent,0);
             }
         });
-    }
-});}});}}
+
+
+       }
+
+
+}

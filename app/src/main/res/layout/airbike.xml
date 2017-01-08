@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <TextView
+        android:text="Air Bike"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="205dp">
+
+        <ImageView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/airbike1"
+            android:id="@+id/imageView6" />
+
+        <ImageView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/airbike2"
+            android:id="@+id/imageView8" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="1. Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put your hands beside your head. Be careful however to not strain with the neck as you perform it. Now lift your shoulders into the crunch position."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="2. Bring knees up to where they are perpendicular to the floor, with your lower legs parallel to the floor. This will be your starting position."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:text="3. Now simultaneously, slowly go through a cycle pedal motion kicking forward with the right leg and bringing in the knee of the left leg. Bring your right elbow close to your left knee by crunching to the side, as you breathe out."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:text="4.Go back to the initial position as you breathe in."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27" />
+
+    <TextView
+        android:text="5. Crunch to the opposite side as you cycle your legs and bring closer your left elbow to your right knee and exhale."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28" />
+
+    <TextView
+        android:text="6. Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView29" />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

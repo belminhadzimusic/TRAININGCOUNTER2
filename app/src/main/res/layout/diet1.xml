@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/diet">
+
+    <TextView
+        android:text="DIET"
+        android:textSize="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DIET" />
+
+    <TextView
+        android:text="@string/title"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="This 1,200-calorie meal plan is designed by EatingWell's registered dietitians and culinary experts to offer healthy and delicious meals for weight-loss. We've done the hard work of planning for you and mapped out seven full days of meals and snacks. The calorie totals are listed next to each meal so you can easily swap things in and out as you see fit. Note, this meal plan is controlled for calories, fiber and sodium. If a particular nutrient is of concern, consider speaking with your health care provider about supplementation or altering this plan to better suit your individual nutrition needs."
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dietinfo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nofasfood"
+        android:id="@+id/dietphoto"
+        android:layout_weight="0.68" />
+</LinearLayout>

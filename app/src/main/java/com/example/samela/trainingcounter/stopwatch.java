@@ -20,7 +20,7 @@ public class stopwatch extends Activity {
     TextView tv_time;
 
     ImageView iv_start, iv_lap;
-    ImageView iv_seconds;
+    ImageView iv_secondfinal;
 
     int buttonState;
 
@@ -42,7 +42,7 @@ public class stopwatch extends Activity {
 
         iv_start = (ImageView) findViewById(R.id.iv_start);
         iv_lap = (ImageView) findViewById(R.id.iv_lap);
-        iv_seconds = (ImageView) findViewById(R.id.iv_seconds);
+        iv_secondfinal = (ImageView) findViewById(R.id.iv_secondfinal);
 
         mHandler = new Handler();
 
@@ -118,7 +118,7 @@ public class stopwatch extends Activity {
                 RotateAnimation.RELATIVE_TO_SELF, 0.5f);
         rotateAnimation.setDuration(1000);
         rotateAnimation.setFillAfter(true);
-        iv_seconds.startAnimation(rotateAnimation);
+        iv_secondfinal.startAnimation(rotateAnimation);
     }
     private final Runnable mRunnable = new Runnable() {
         @Override

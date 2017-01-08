@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+    <TextView
+        android:text="Bar Throw And Press"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="205dp">
+
+        <ImageView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barthrowandpress1"
+            android:id="@+id/imageView6" />
+
+        <ImageView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barthrowandpress2"
+            android:id="@+id/imageView8" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="1. Using a smith machine, adjust the bar height so that when you are lying down the bar is slightly lower than arms distance away. Once you have added the appropriate weight to the bar, lie down on the bench and take a slightly than shoulder width grip on the bar. This will be your starting position."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="2. Lower the bar all the way down to your chest, and then in an explosive manner, push the bar up as fast as you can, releasing the bar from your grip at the top of the movement. Catch the bar with your arms extended, keeping a slight bend in your elbows."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:text="3. Lower the bar back down to the chest and repeat for the recommended number of repetitions."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26" />
+</LinearLayout>

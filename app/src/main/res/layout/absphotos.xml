@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+
+    <Button
+        android:text="3/4 SIT UP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/situp34" />
+
+    <Button
+        android:text="AIR BIKE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/airbike" />
+
+    <Button
+        android:text="ALTERNATE HEEL TOUCHERS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/heeltoucher" />
+
+    <Button
+        android:text="BENT-KNEE HIP RISE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/kneerise" />
+
+    <Button
+        android:text="BENT PRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/bentpress" />
+</LinearLayout>

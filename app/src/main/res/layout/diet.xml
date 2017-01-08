@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+
+    <TextView
+        android:text="7 DAY DIET"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:text="@string/diet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diet1" />
+
+    <Button
+        android:text="@string/day1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1" />
+
+    <Button
+        android:text="@string/day2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day2" />
+
+    <Button
+        android:text="@string/day3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day3" />
+
+    <Button
+        android:text="@string/day4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day4" />
+
+    <Button
+        android:text="@string/day5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day5" />
+
+    <Button
+        android:text="@string/day6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day6" />
+
+    <Button
+        android:text="@string/day7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/day7" />
+</LinearLayout>

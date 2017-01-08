@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+    <TextView
+        android:text="Bar Push-Up Smith Machine"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="205dp">
+
+        <ImageView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barpushupsmithmachine1"
+            android:id="@+id/imageView6" />
+
+        <ImageView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barpushupsmithmachine2"
+            android:id="@+id/imageView8" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="1. Using a smith machine, lower the bar so that when youâ€™re standing next to it, itâ€™s about knee height."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="2. Place your hands on the bar, slightly wider than shoulder-width apart, and then step your feet back so that your body is in a plank position. Your arms should be perpendicular to your body. This will be your starting position."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25" />
+
+    <TextView
+        android:text="3.  Keeping your back flat and abs braced, lower yourself down by flexing your elbows so that your chest nearly touches the bar."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26" />
+    <TextView
+        android:text="4. Return to the starting position by pressing through your hands and contracting your pecs and triceps. Repeat for the recommended number of repetitions."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27" />
+</LinearLayout>

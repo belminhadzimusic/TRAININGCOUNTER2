@@ -1,9 +1,35 @@
 <resources>
     <string name="app_name">TRAINING COUNTER</string>
     <string name="start">Start</string>
-    <string name="push">Push-up workout</string>
-    <string name="abs">ABS workout</string>
+    <string name="push">Push-up</string>
+    <string name="step">STEP Counter</string>
+    <string name="step1">STEP</string>
+    <string name="abs">Workout</string>
+    <string name="abs1">ABS </string>
     <string name="stopwatch">Stopwatch</string>
     <string name="touchpush">Touch</string>
     <string name="resetreset">RESET</string>
+    <string name="Photospush">EXERCISES</string>
+    <string name="pushup">Workout</string>
+    <string name="diet">HOW TO LOSE WEIGHT?</string>
+    <string name="diet1">DIET</string>
+    <string name="title">A delicious way to lose weight.</string>
+    <string name="day1">DAY 1</string>
+    <string name="day2">DAY 2</string>
+    <string name="day3">DAY 3</string>
+    <string name="day4">DAY 4</string>
+    <string name="day5">DAY 5</string>
+    <string name="day6">DAY 6</string>
+    <string name="day7">DAY 7</string>
+    <string name="biceps">BICEPS</string>
+    <string name="chest">CHEST</string>
+    <string name="triceps">TRICEPS</string>
+
+
+
+
+
+
+
+
 </resources>

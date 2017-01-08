@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+
+    <Button
+        android:text="@string/step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/step"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable" />
+    <Button
+        android:text="@string/Photospush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stepphotos"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+
+
+</LinearLayout>

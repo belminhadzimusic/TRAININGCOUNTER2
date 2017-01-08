@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet">
+    <TextView
+        android:text="@string/day7"
+        android:textSize="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewff" />
+
+    <TextView
+        android:text="Breakfast (266calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1info" />
+    <TextView
+        android:text="• 1 cup all-bran cereal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewn" />
+    <TextView
+        android:text="• 3/4-cup skim milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVfiewn" />
+    <TextView
+        android:text="• 1/2 cup blueberries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVgiewn" />
+    <TextView
+        android:text="Morning Snack (117 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1inlfo" />
+    <TextView
+        android:text="• 1 cup sliced cucumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewnk" />
+    <TextView
+        android:text="• 4 Tbsp. Avocado-Yogurt Dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftVfiewnk" />
+    <TextView
+        android:text="Lunch (301 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1idrnlfo" />
+    <TextView
+        android:text="• 2 cups mixed greens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewnok" />
+    <TextView
+        android:text="• 3 oz. cooked chicken breast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewink" />
+    <TextView
+        android:text="• 1/2 medium red bell pepper, sliced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViuewnk" />
+    <TextView
+        android:text="• 1/4 cup grated carrots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texfjtViuewnk" />
+    <TextView
+        android:text="• 2 Tbsp. Carrot-Ginger Vinaigrette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViujewnk" />
+    <TextView
+        android:text="Combine ingredients and top salad with vinaigrette."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViuewnjk" />
+
+    <TextView
+        android:text="Afternoon Snack (42 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1igdrnlfo" />
+    <TextView
+        android:text="• 5 dried apricots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewlenk" />
+
+    <TextView
+    android:text="Dinner (494 calories)"
+    android:layout_width="match_parent"
+    android:textSize="15dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/day1igdrlnlfo" />
+    <TextView
+        android:text="• 1 serving (1/4 pizza) Wild Mushroom Pizza with Arugula and Pecorino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViefdgwlenk" />
+
+</LinearLayout>

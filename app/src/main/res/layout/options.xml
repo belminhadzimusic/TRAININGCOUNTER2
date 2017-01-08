@@ -3,26 +3,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@android:color/holo_blue_light">
+
+    android:background="@drawable/app1">
 
     <Button
         android:text="@string/stopwatch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/stopwatch"
-        android:backgroundTint="@android:color/holo_blue_dark" />
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable" />
 
     <Button
         android:text="@string/push"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/pushup"
-        android:backgroundTint="@android:color/holo_blue_dark" />
+        android:id="@+id/photosworkout"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:onClick="toPushUp"/>
 
-    <Button
-        android:text="@string/abs"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/abs"
-        android:backgroundTint="@android:color/holo_blue_dark" />
+        android:weightSum="1">
+
+        <Button
+            android:text="@string/abs1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/absmenu"
+            android:backgroundTint="?android:attr/textColorSecondaryNoDisable" />
+
+        <Button
+            android:text="@string/step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stepmenu"
+            android:backgroundTint="?android:attr/textColorSecondaryNoDisable" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/biceps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/bicepsmenu" />
+
+    <Button
+        android:text="@string/chest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/chestmenu" />
+
+    <Button
+        android:text="@string/triceps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:id="@+id/tricepsmenu" />
+
+    <Button
+        android:text="@string/diet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diet"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"/>
+
 </LinearLayout>

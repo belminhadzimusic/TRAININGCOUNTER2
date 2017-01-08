@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet">
+    <TextView
+        android:text="@string/day3"
+        android:textSize="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewff" />
+    <TextView
+        android:text="Breakfast (267 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1info" />
+    <TextView
+        android:text="• 1/4 cup Maple-Nut Granola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewn" />
+    <TextView
+        android:text="• 3/4 cup plain non-fat Greek yogurt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVfiewn" />
+    <TextView
+        android:text="• 1/2 cup blueberries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVgiewn" />
+    <TextView
+        android:text="Morning Snack (35 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1inlfo" />
+    <TextView
+        android:text="• 1 clementine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewnk" />
+    <TextView
+        android:text="Lunch (351 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1idrnlfo" />
+    <TextView
+        android:text="Apple and Cheddar Pita Pocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewnok" />
+    <TextView
+        android:text="• 1 whole-wheat pita round (6-1/2-inch)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewink" />
+    <TextView
+        android:text="• 1 Tbsp. mustard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViuewnk" />
+    <TextView
+        android:text="• 1/2 medium apple, sliced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftVyiewnk" />
+    <TextView
+        android:text="• 1 oz. Cheddar cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftVierwnk" />
+    <TextView
+        android:text="• 1 cup mixed greens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewenk" />
+    <TextView
+        android:text="Cut pita in half and spread mustard inside. Fill with apple slices and cheese. Toast until the cheese begins to melt. Add greens and serve."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewbnk" />
+    <TextView
+        android:text="Afternoon Snack (47 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1igdrnlfo" />
+    <TextView
+        android:text="• 1/2 medium apple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewlenk" />
+    <TextView
+        android:text="Dinner (457 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1igdrlnlfo" />
+    <TextView
+        android:text="• 1 serving (1 pepper) Moroccan-Style Stuffed Peppers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViefdgwlenk" />
+    <TextView
+        android:text="• 2 cups spinach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViewfdgdlenk" />
+    <TextView
+        android:text="Sauté spinach in 1 tsp. of olive oil and a pinch of both salt and pepper (1/16 tsp. each)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftViedfgdwlenk" />
+    <TextView
+        android:text="Evening Snack (50 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1igdrlllnlfo" />
+    <TextView
+        android:text="• 1 Tbsp. chocolate chips, preferably dark chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texftVsiewfdgdlenk" />
+
+</LinearLayout>

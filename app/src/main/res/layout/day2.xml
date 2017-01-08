@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diet">
+
+    <TextView
+        android:text="@string/day2"
+        android:textSize="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+    <TextView
+        android:text="Breakfast (266 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1info" />
+    <TextView
+        android:text="Avocado-Egg Toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textViewn" />
+    <TextView
+        android:text="• 1 slice whole-grain bread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textViewnn" />
+    <TextView
+        android:text="• 1/4 medium avocado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVibewnn" />
+    <TextView
+        android:text="• 1 large egg, cooked in 1/4 tsp. olive oil or coat pan with a thin layer of cooking spray (1 second spray)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVnibewnn" />
+    <TextView
+        android:text="• Top egg with a pinch of pepper (1/16 tsp.)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVnibevwnn" />
+    <TextView
+        android:text="• 1 clementine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textVnibevwnnn" />
+    <TextView
+        android:text="Morning Snack (134 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1ninfo" />
+    <TextView
+        android:text="• 5 dried apricots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textbVnibevwnnn" />
+    <TextView
+        android:text="• 7 walnut halves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/textbVnibvwnnn" />
+    <TextView
+        android:text="Lunch (295 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day1ninnfo" />
+    <TextView
+        android:text="Leftover soup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texdtbVnibvwnnn" />
+    <TextView
+        android:text="• 2 cups Ravioli and Vegetable Soup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texdbtbVnibvwfnnn" />
+    <TextView
+        android:text="• 1 clementine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texdtbfVnifbvwnnn" />
+    <TextView
+        android:text="Afternoon Snack (93 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/djay1ninnfo" />
+    <TextView
+        android:text="• 3 Tbsp. hummus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texdtbfgn" />
+    <TextView
+        android:text="• 1 cup sliced cucumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texdtjbfgn" />
+    <TextView
+        android:text="Dinner (424 calories)"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/djay1nlinnfo" />
+    <TextView
+        android:text="• 1 1/2 cups Delicata Squash and Tofu Curry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texfddtjbfgn" />
+    <TextView
+        android:text="• 1/2 cup brown rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:id="@+id/texfddtjbflgn" />
+
+</LinearLayout>

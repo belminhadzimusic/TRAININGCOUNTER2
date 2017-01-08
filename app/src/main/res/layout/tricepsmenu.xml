@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app1">
+
+    <Button
+        android:text="BAND SKULL CRUSHER"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bandskullcrusher" />
+
+    <Button
+        android:text="BENCH DIPS"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/benchdips" />
+
+    <Button
+        android:text="BENCH PRESS - POWERLIFTING"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/benchpresspowerlifting" />
+
+    <Button
+        android:text="BENCH PRESS WITH CHAINS"
+        android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/benchpresswithchains" />
+    <Button
+    android:text="BOARD PRESS"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?android:attr/textColorSecondaryNoDisable"
+    android:id="@+id/boardpress" />
+</LinearLayout>
